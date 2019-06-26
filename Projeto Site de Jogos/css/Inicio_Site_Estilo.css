@@ -1,0 +1,284 @@
+/* ***** css do primeiro menu -inicio******  */
+*,*:after, *:before{
+    margin: 0;
+    outline: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+html{
+    width: 100%;
+}
+
+body{
+    font-family: sans-serif;
+    /*background-color: #232346;*/
+    background-color: black;
+    max-width: 100%;
+    width: 100%;
+}
+
+.menu{ /* Primeiro menu */
+    display: flex;
+    width: 100%;
+    height: 80px;
+    /*background-color: #232346;*/
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo_tipo{
+    display: flex;
+    width: 150px;
+    height: 80px;
+    margin-left: 3%;
+
+}
+
+.logo_tipo img{    
+    width: 100%;
+    height: 100%;
+}
+
+.top-busca{
+    margin-right: 3%;
+    display: flex;
+}
+
+.top-busca input{
+    border: 0;
+    width: 200px;
+    height: 25px;
+    font-size: 1.2em;
+    border-radius: 5px 0 0 5px;
+}
+
+.top-busca a{
+    color: #fff;
+    padding: 5px 8px;
+    background-color: #232346; 
+}   
+    /* inicio do sub menu*/
+.container{
+}
+
+.container .main-menu{
+    width: 100%;
+    background-color: #232346;
+    height: 50px;
+    display: flex;
+}
+
+.container .main-menu ul{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+.main-menu ul a{
+    color: #fff;
+    font-size: 1.4em;
+    height: 45px;
+    padding: 0 5px;
+}
+
+.main-menu a li{
+    height: 45px;
+    padding: 0 5px;
+}
+
+.main-menu ul a:hover{
+    border-bottom: 3px solid #fff;
+    height: 45px;
+    padding: 0 5px;
+}
+
+/*fim dos menus e começo dos slide*/
+
+.slide{
+    overflow: hidden; /*remove barra de rolagem*/    
+}
+
+
+
+.slide img{
+    width: 100%;
+    height: 470px;
+}
+
+button.slick-prev{
+    
+    font-size: 0;
+    border: none;
+    width: 48px;
+    height: 48px;
+    background: none;
+    background-color: transparent;
+    position: absolute;
+    
+    background-image: url('../img/esquerda.png');
+    z-index: 9;
+    top: 35%;
+    left: 7%;
+    
+}
+
+button.slick-next{/*botao seta a direita dos slide*/
+    
+    font-size: 0;
+    border: none;
+    width: 48px;
+    height: 48px;
+    background: none;
+    background-color: transparent;
+    position: absolute;
+    
+    background-image: url('../img/direita.png');
+    z-index: 9;
+    top: 35%;
+    right: 7%;
+    
+}
+
+/*fim das setas e começo das bolinhas*/
+
+.slick-dots li button{
+font-size: 0px;/*pra sumir os caracteres*/
+border:5px solid white;/*cor da borda das bolinhas*/    
+width: 25px;
+height: 25px;
+background: transparent;
+border-radius: 50%;/*forma de bolinha*/
+cursor: pointer;/*fica pito um link*/
+ 
+    
+}
+
+.slick-dots li{
+    display: inline-block;/* alinha nomes lado a lado*/
+   padding-left: 5px; 
+    
+}
+
+
+li.slick-active button{
+background: blue;    
+    
+    
+}
+.slick-dots {
+margin: 0 auto;
+width: 50%;
+position: absolute;/* nao segue as div*/
+left: 43%;  
+top: 340px;    
+}
+/*fim da configuração das bolinhas*/
+
+
+/*inicio  da vendas de jogo*/
+
+.jogos1 img{
+    width: 100%;
+    height: 350px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.menu_compras{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;    
+}
+
+.jogos1{
+  width: 300px;
+  height: 380px;
+  display: flex;
+  flex-direction: column;   
+  margin-right: 10px;
+  border-radius: 10px 10px 0px 0px;
+  border: solid 1px gray;
+
+}
+
+.jogos1 h1{
+    color: #fff;
+    font-size: 1.2em;
+    text-align: center;
+}
+.btn{ /*campo botao*/
+  border-radius: 0px 0px 10px 10px;/*deica o campo oval*/
+  padding: 2px;/*largura  campo btn*/
+  font-family: sans-serif;
+  border:none;
+  text-align: center; /*alinha a 'compra' centro*/
+  font-weight: bold;
+  width: 100%;    
+}
+
+
+
+.btn-blue{ /*cor do botao compra*/
+   background-color: #232346;
+   color:#fff;
+}
+
+.btn-blue:hover{ /*muda de cor ao selecionar*/
+   background-color: #1F4AA6;
+   color:#fff;
+}
+
+.menu_compras  h1{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.03em;
+    margin: 0%;
+}
+    
+.main div, .btn-blue{/*controla posição do com*/
+    margin: 0%;
+}
+    
+    
+
+.menuu{ /* Primeiro menu */
+
+    border-radius: 10px;/*deica o campo oval*/
+    padding: 10px;/*largura  campo btn*/
+    font-family: sans-serif;
+    border:none;
+    text-align: center; /*alinha a 'compra' centro*/
+    font-weight: bold;
+    width: 92%; 
+    margin-left: 3%;
+    margin-top: 2%;
+    background-color: #232346;    
+}
+
+footer{
+    border-top: solid 1px #fff;
+    background-color: black;
+    height: 70px;
+    text-align: center;
+    color: #fff;
+    padding-top: 1.5%;
+}

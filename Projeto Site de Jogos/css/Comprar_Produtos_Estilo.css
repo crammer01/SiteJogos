@@ -1,0 +1,265 @@
+*,*:after, *:before{
+    margin: 0;
+    outline: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+html{
+    width: 100%;
+}
+
+body{
+    font-family: sans-serif;
+    /*background-color: #232346;*/
+    background-color: black;
+    max-width: 100%;
+    width: 100%;
+}
+
+.btn{
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #ccc;
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn-blue{
+    background-color: #232346;
+}
+
+.btn-blue:hover{
+    background-color: #1F4AA6;
+}
+.container-top{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    /*background-color: #232346;*/
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-top.logo{
+    flex: 1;
+}
+
+.logo{
+    display: flex;
+    width: 150px;
+    height: 80px;
+    margin-left: 3%;
+}
+
+#logo-st{
+    margin-left: 6px;
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.top-busca{
+    margin-right: 3%;
+    display: flex;
+}
+
+.top-busca input{
+    border: 0;
+    width: 200px;
+    height: 25px;
+    font-size: 1.2em;
+    border-radius: 5px 0 0 5px;
+}
+
+.top-busca a{
+    color: #fff;
+    padding: 5px 8px;
+    background-color: #232346;
+}
+
+.container{
+}
+
+.container .main-menu{
+    width: 100%;
+    background-color: #232346;
+    height: 50px;
+    display: flex;
+}
+
+.container .main-menu ul{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+.main-menu ul a{
+    color: #fff;
+    font-size: 1.4em;
+    height: 45px;
+    padding: 0 5px;
+}
+
+.main-menu a li{
+    height: 45px;
+    padding: 0 5px;
+}
+
+.main-menu ul a:hover{
+    border-bottom: 3px solid #fff;
+    height: 45px;
+    padding: 0 5px;
+}
+
+footer{
+    background-color: black;
+    height: 70px;
+    text-align: center;
+    color: #fff;
+    padding-top: 1.5%;
+}
+
+#cyber_pk{
+    margin-bottom: 1%;
+    display: flex;
+    width: 100%;
+    height: 712px;
+}
+
+.video{
+    display: flex;
+    position: relative;
+    width: auto;
+    max-width: 100%;
+    height: 100%;
+}
+
+.dt-img{
+    width: 50%;
+    height: 250px;
+    position: absolute;
+    display: flex;
+    margin-left: 23.5%;
+    margin-right: 23.5%;
+    margin-top: 10%;
+}
+
+.buy{
+    width: 150px;
+    height: 50px;
+    background-color: #232346;
+    color: #fff;
+    display: flex;
+    position: absolute;
+    padding-left: 4.5%;
+    margin-top: 32%;
+    margin-left: 43.1%;
+    margin-right: 50%;
+    cursor: pointer;
+}
+
+.box-images{
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    overflow: scroll;    
+    margin-left: 30px;
+    overflow-y: hidden;
+}
+
+.imgs img{
+    width: 800px;
+    height: 100%;
+}
+
+.imgs{
+    width: 100%;
+    height: 500px;
+    margin-left: 5px;
+}
+
+.sobre{
+    width: 100%;
+    height: 400px;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 3%;
+}
+
+
+.About-attribution_97395bb9{
+    margin-top: 5%;
+    margin-left: 5%
+}
+
+.About-logo_bc368e79{
+    margin-left: 25%;
+    position: absolute;
+    margin-top: 290px;
+}
+
+.About-image_8e0da031{
+    margin-left: 3%;
+}
+
+.About-title_cc99f126 {
+    color: #fff;
+    margin-bottom: 3%;
+}
+
+.p{
+    color: #fff;
+}
+
+.About-attribution_97395bb9{
+    color: #fff;
+}
+
+.SectionWrapper-horizontalInset_dd636738 SectionWrapper-verticalInset_729a9478 main.diesel-site.4695e1d00ca471f58773.css{}
+
+.Requisitos{
+    width: 100%;
+    height: 400px;
+    padding-left: 7%;
+    border-top: solid 1px #fff;
+    margin-bottom: 1%;
+    border-bottom: solid 1px #fff;
+}
+
+.SystemRequirements-container_5aee6a35 main.diesel-site.4695e1d00ca471f58773.css{}
+
+.Tabs-active_e9f1f7b7 {
+    background-color: black;
+    color: wheat;
+    margin-top: 10%;
+    border: solid 1px #fff;
+
+}
+
+.SystemRequirements-rating_3f488989{
+    width: 250px;
+    height: 150px;
+    display: flex;
+    position: relative;
+}
+
+.SystemRequirements-rating_3f488989 img{
+    width: 100%;
+    height: 80%;
+}
